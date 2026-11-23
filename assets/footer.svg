@@ -1,0 +1,20 @@
+<svg width="1000" height="120" viewBox="0 0 1000 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Footer wave">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f81f7"/>
+      <stop offset="1" stop-color="#14264d"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="1000" height="120"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <path d="M0 60 Q125 20 250 60 T500 60 T750 60 T1000 60 T1250 60 T1500 60 T1750 60 T2000 60 V120 H0 Z" fill="#79c0ff" opacity="0.25">
+      <animateTransform attributeName="transform" type="translate" from="-500 0" to="0 0" dur="10s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 75 Q125 45 250 75 T500 75 T750 75 T1000 75 T1250 75 T1500 75 T1750 75 T2000 75 V120 H0 Z" fill="url(#g)" opacity="0.7">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-500 0" dur="8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 92 Q125 72 250 92 T500 92 T750 92 T1000 92 T1250 92 T1500 92 T1750 92 T2000 92 V120 H0 Z" fill="#0d1117">
+      <animateTransform attributeName="transform" type="translate" from="-500 0" to="0 0" dur="6s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>
