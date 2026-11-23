@@ -90,16 +90,6 @@ I'm always eager to learn new technologies, solve challenging problems, and turn
 
 ---
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img alt="GitHub trophies" src="https://github-profile-trophy.vercel.app/?username=ak-tiwari-09&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8" />
-
-</div>
-
----
-
 ## 💬 Dev Quote
 
 <div align="center">
