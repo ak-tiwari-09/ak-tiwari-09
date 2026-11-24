@@ -106,7 +106,7 @@ flowchart LR
 
 <img alt="GitHub streak" src="https://streak-stats.demolab.com/?user=ak-tiwari-09&theme=tokyonight&hide_border=true" />
 
-</div>
+<!-- </div>
 
 
   DAILY AUTO-UPDATED METRICS (optional)
@@ -117,7 +117,7 @@ flowchart LR
 
 <img alt="Daily GitHub metrics" src="github-metrics.svg" width="100%" />
 
-</div>
+</div> -->
 
 
 <img src="assets/divider.svg" alt="" width="100%" />
