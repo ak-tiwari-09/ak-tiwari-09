@@ -108,7 +108,7 @@ flowchart LR
 
 </div>
 
-<!--
+
   DAILY AUTO-UPDATED METRICS (optional)
   Un-comment this block ONLY after the "Metrics" GitHub Action has run once
   and github-metrics.svg exists in this repository.
@@ -118,7 +118,7 @@ flowchart LR
 <img alt="Daily GitHub metrics" src="github-metrics.svg" width="100%" />
 
 </div>
--->
+
 
 <img src="assets/divider.svg" alt="" width="100%" />
 
