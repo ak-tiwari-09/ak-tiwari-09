@@ -1,0 +1,27 @@
+name: Metrics
+
+on:
+  # Runs automatically every day at 00:00 UTC (05:30 AM India time)
+  schedule:
+    - cron: "0 0 * * *"
+  # Lets you run it manually from the Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ak-tiwari-09
+          template: classic
+          filename: github-metrics.svg
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Kolkata
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_details: bytes-size, percentage
